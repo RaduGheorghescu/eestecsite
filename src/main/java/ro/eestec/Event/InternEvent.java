@@ -1,5 +1,7 @@
 package ro.eestec.Event;
 
+import ro.eestec.Team.Team;
+
 import javax.persistence.Entity;
 
 /**

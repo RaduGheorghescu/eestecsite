@@ -1,8 +1,11 @@
 package ro.eestec.Event;
 
+import ro.eestec.Edition.Edition;
 import ro.eestec.Team.Team;
 
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import java.util.List;
 
 /**
  * Created by Radu.Gheorghescu on 7/25/2017.
@@ -15,7 +18,7 @@ public abstract class Event {
 
     private String eventDescription;
 
-    private Team team;
+    private List<Edition> editionList;
 
 
     public String getAbbreviation() {
@@ -34,11 +37,19 @@ public abstract class Event {
         this.name = name;
     }
 
-    public Team getTeam() {
-        return team;
+    public String getEventDescription() {
+        return eventDescription;
     }
 
-    public void setTeam(Team team) {
-        this.team = team;
+    public void setEventDescription(String eventDescription) {
+        this.eventDescription = eventDescription;
+    }
+
+    public List<Edition> getEditionList() {
+        return editionList;
+    }
+
+    public void addEdition(Edition edition) {
+        this.editionList.add(edition);
     }
 }
