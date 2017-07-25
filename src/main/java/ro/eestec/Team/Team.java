@@ -1,14 +1,12 @@
 package ro.eestec.Team;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * Created by Radu.Gheorghescu on 7/25/2017.
  */
 @Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

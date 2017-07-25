@@ -10,7 +10,7 @@ import javax.persistence.MappedSuperclass;
  */
 
 
-@MappedSuperclass
+@Entity
 public class InternEvent extends Event {
 
 }

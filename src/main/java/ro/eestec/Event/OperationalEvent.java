@@ -8,6 +8,6 @@ import javax.persistence.MappedSuperclass;
  */
 
 
-@MappedSuperclass
+@Entity
 public class OperationalEvent extends Event {
 }

@@ -10,7 +10,7 @@ import java.util.List;
  */
 
 
-@MappedSuperclass
+@Entity
 public class InternationalEvent extends Event{
     @ElementCollection
     private List<InternationalEventTypes> typesList;

@@ -8,7 +8,7 @@ import javax.persistence.MappedSuperclass;
  */
 
 
-@MappedSuperclass
+@Entity
 public class LocalEvent extends Event{
-
+    private String test;
 }
