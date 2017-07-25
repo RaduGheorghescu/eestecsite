@@ -1,4 +1,4 @@
-package ro.eestec.Event;
+package ro.eestec.event;
 
 /**
  * Created by Radu.Gheorghescu on 7/25/2017.

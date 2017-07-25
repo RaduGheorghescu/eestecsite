@@ -1,7 +1,6 @@
-package ro.eestec.Event;
+package ro.eestec.event;
 
-import ro.eestec.Edition.Edition;
-import ro.eestec.Team.Team;
+import ro.eestec.edition.Edition;
 
 import javax.persistence.*;
 import java.util.List;

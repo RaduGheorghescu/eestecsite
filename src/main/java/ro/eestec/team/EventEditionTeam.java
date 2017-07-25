@@ -1,9 +1,8 @@
-package ro.eestec.Team;
+package ro.eestec.team;
 
-import ro.eestec.Edition.Edition;
+import ro.eestec.edition.Edition;
 
 import javax.persistence.Entity;
-import javax.persistence.MappedSuperclass;
 import javax.persistence.OneToOne;
 
 /**

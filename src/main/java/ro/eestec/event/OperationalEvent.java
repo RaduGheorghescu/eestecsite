@@ -1,7 +1,6 @@
-package ro.eestec.Event;
+package ro.eestec.event;
 
 import javax.persistence.Entity;
-import javax.persistence.MappedSuperclass;
 
 /**
  * Created by Radu.Gheorghescu on 7/25/2017.

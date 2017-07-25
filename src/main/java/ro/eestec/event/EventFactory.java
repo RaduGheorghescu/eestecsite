@@ -1,10 +1,11 @@
-package ro.eestec.Event;
+package ro.eestec.event;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by Radu.Gheorghescu on 7/25/2017.
  */
+@Component
 public class EventFactory {
 
     public Event generateEvent(EventTypes eventType){

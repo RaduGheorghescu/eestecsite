@@ -1,4 +1,4 @@
-package ro.eestec.Team;
+package ro.eestec.team;
 
 import javax.persistence.*;
 

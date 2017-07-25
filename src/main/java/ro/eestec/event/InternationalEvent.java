@@ -1,8 +1,7 @@
-package ro.eestec.Event;
+package ro.eestec.event;
 
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
-import javax.persistence.MappedSuperclass;
 import java.util.List;
 
 /**

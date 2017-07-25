@@ -1,4 +1,4 @@
-package ro.eestec.Event;
+package ro.eestec.event;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
