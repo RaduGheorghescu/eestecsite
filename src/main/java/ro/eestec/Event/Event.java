@@ -3,13 +3,14 @@ package ro.eestec.Event;
 import ro.eestec.Edition.Edition;
 import ro.eestec.Team.Team;
 
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 import java.util.List;
 
 /**
  * Created by Radu.Gheorghescu on 7/25/2017.
  */
+@Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public abstract class Event {
     @Id
     private String abbreviation;
@@ -18,6 +19,7 @@ public abstract class Event {
 
     private String eventDescription;
 
+    @OneToMany
     private List<Edition> editionList;
 
 
